@@ -32,9 +32,14 @@ function App() {
 
   const LocationOfExpenditure = "Mall";
 
+  const addExpenseHandler = (expense) => {
+    // expenses.push(expense);
+    console.log(expense);
+  };
+
   return (
     <div>
-      <NewExpense></NewExpense>
+      <NewExpense onAddExpense={addExpenseHandler}></NewExpense>
       <Expenses items={expenses} location={LocationOfExpenditure} />
     </div>
   );

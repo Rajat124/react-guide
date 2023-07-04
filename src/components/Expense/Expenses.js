@@ -24,7 +24,7 @@ const Expenses = (props) => {
       <ExpensesList
         items={filteredExpenses}
         filterYear={filterYear}
-        fullarray={props.items}
+        fullArray={props.items}
       />
     </Card>
   );

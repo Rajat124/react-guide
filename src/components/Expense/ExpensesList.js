@@ -5,7 +5,7 @@ const ExpensesList = (props) => {
   let expenseContent;
   let addmore = (
     <h2 className="expenses-list__fallback">
-      "Only single Expense here. Please add more..."
+      Only single Expense here. Please try to add more...
     </h2>
   );
 

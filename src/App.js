@@ -45,6 +45,7 @@ function App() {
       <button></button>
       <button></button>
       <button></button>
+      <input></input>
     </div>
   );
 }
